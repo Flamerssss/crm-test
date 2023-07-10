@@ -1,0 +1,45 @@
+/* //-----------------------|| SVG ||-----------------------// */
+
+.car-part {
+    stroke: #adabc1;
+    cursor: pointer;
+    fill: #fff;
+}
+
+.car-partsalon {
+    stroke: #adabc1;
+    cursor: pointer;
+    fill: #899198;
+}
+
+
+.car-partsalon:hover {
+    fill: green;
+}
+
+
+.car-partsalon2 {
+    stroke: #adabc1;
+    cursor: pointer;
+    fill: #a4afba;
+}
+
+
+.car-partsalon2:hover {
+    fill: green;
+}
+.car-part:hover {
+    fill: green;
+}
+
+.has-damages {
+    fill: orange;
+}
+
+svg {
+    pointer-events: none;
+}
+
+path {
+    pointer-events: auto;
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "site": "newcrmdev",
+    "public": "out",
+    "appAssociation": "AUTO",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "dynamicLinks": true,
+        "source": "/**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
